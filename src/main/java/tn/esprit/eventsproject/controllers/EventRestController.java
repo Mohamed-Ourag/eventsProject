@@ -47,6 +47,7 @@ public class EventRestController {
      //        return eventServices.addAffectLog(logistics,descriptionEvent);
     //        return eventServices.addAffectLog(logistics,descriptionEvent);
     //        return eventServices.addAffectLog(logistics,descriptionEvent);
+    //        return eventServices.addAffectLog(logistics,descriptionEvent);
 
 
 
