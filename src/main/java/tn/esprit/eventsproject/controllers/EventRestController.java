@@ -37,7 +37,7 @@ public class EventRestController {
 //        return eventServices.addAffectLog(logistics,descriptionEvent);
 //    }
 
-      //    @PutMapping("/addAffectLog/{description}")
+
     @GetMapping("/getLogs/{d1}/{d2}")
     public List<Logistics> getLogistiquesDates (@PathVariable("d1") LocalDate date_debut, @PathVariable("d2") LocalDate date_fin){
         return eventServices.getLogisticsDates(date_debut,date_fin);
