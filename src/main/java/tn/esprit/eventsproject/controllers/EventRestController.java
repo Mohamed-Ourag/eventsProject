@@ -36,6 +36,8 @@ public class EventRestController {
 //    public Logistics addAffectLog(@RequestBody Logistics logistics,@PathVariable("description") String descriptionEvent){
 //        return eventServices.addAffectLog(logistics,descriptionEvent);
 //    }
+
+    //    @PutMapping("/addAffectLog/{description}")
     
 
     
